@@ -31,3 +31,115 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+.hlavicka{
+    background-color: white;
+    color: #25133d;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+.logo{
+    color: #25133d;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding:0px 5px 0px 30px;
+    text-align: center;
+}
+a{
+    display: flex;
+	padding: 0px 30px;
+    text-decoration: none;
+    align-items: center;
+    color: #25133d;
+}
+.menu{
+    list-style: none;
+    display: flex;
+}
+img{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.pozadi{
+    position: absolute;
+    clip: rect(auto auto 460px auto);
+}
+h1{
+    font-size: 80px;
+    color: white;
+    position: relative;
+    left: 30px;
+    top:auto;
+    font-weight: normal;
+}
+.slogan{
+    font-size: 35px;
+    padding: 0;
+    position: relative;
+    left: 30px;
+    top: -20px;
+    color: white;
+    font-weight: 100;
+    line-height: 1.2;
+}
+.telefon{
+    position: relative;
+    top: -284px;
+    left: 555px;
+}
+.tlacitka{
+    position: absolute;
+    display: flex;
+    top: 400px;
+    list-style: none;
+}
+.tlacitka a{
+    color: white;
+}
+.aktivni{
+    padding: 5px 10px 5px 10px;
+    border: 1px solid white;
+    border-radius: 5%;
+    background-color: #48418e;
+    margin: 0px 20px 0px 0px;
+}
+.neaktivni{
+    padding: 5px 10px 5px 10px;
+    border: 1px solid white;
+    border-radius: 5%;
+    margin: 0px 20px 0px 0px;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top:-280px;
+    height: 20px;
+    background-color: white;
+    }
+.benefity{
+    text-align: center;
+    padding: 30px;
+    }
+.ikona img{
+    max-width: 80px;
+    }
+h2{
+    color: #48418e;
+    font-size: 18px;
+    }
+.popis p{
+    font-size: 14px;
+   }
+.paticka{
+    background-color: #48418e;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 14px;
+    padding: 5px;
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    }
